@@ -6,13 +6,16 @@ site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
-cover-image: cypress_swamp.png
+cover-image: images/cypress_swamp.png
 link-citations: yes
 github-repo: adamdsmith/wria_felsenthal
-url: 'http\://seankross.com/bookdown-start/'
-description: "Everything you need (and nothing more) to start a bookdown book."
+url: ''
+description: ""
 ---
 
 # Preface {-}
+
+
+\begin{center}\includegraphics{images/cypress_swamp} \end{center}
 
 This is the very first part of the book.
