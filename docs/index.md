@@ -1,7 +1,7 @@
 --- 
 title: "Felsenthal WRIA demo"
 author: "University of Georgia, Water Resources & Remote Sensing Laboratory"
-date: "2017-10-04"
+date: "2017-10-05"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
@@ -15,7 +15,6 @@ description: ""
 
 # Preface {-}
 
-
-\begin{center}\includegraphics{images/cypress_swamp} \end{center}
+<img src="images/cypress_swamp.png" style="display: block; margin: auto;" />
 
 This is the very first part of the book.

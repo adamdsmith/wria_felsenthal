@@ -1,6 +1,7 @@
 bookdown::gitbook:
   css: style.css
-  split_by: chapter
+  split_by: none
+  self_contained: true
   config:
     toc:
       collapse: subsection
