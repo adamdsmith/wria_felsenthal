@@ -2,5 +2,6 @@ book_filename: "WRIA_Felsenthal"
 chapter_name: ""
 repo: https://github.com/adamdsmith/wria_felsenthal
 output_dir: docs
-clean: [packages.bib, bookdown.bbl]
 new_session: yes
+before_chapter_script: "_common.R"
+delete_merged_file: true

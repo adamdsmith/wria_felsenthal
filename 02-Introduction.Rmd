@@ -17,3 +17,13 @@ This WRI report is partitioned into several categories and sub-categories accord
 
 The WRI report contains general information and maps describing the natural setting of the refuge. More detailed information can be found in the inventory section about water resources, water infrastructure, water quality, and water monitoring. The inventory also contains information about federal and state regulations for Felsenthal NWR and the surrounding area’s water resources. Some of the information, such as data sources and links to the information is provided in the Appendix.
  
+## Map example
+
+```{r map_demo, fig.cap = "An example interactive map."}
+library(leaflet)
+rand_lng = function(n = 10) rnorm(n, -83.36, .01)
+rand_lat = function(n = 10) rnorm(n, 33.896, .01)
+leaflet()%>% setView(-83.360730, 33.896008, zoom = 13) %>%
+  addTiles() %>%
+  addMarkers(rand_lng(), rand_lat(), popup = paste('A random letter', sample(LETTERS, 10)))
+```

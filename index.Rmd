@@ -2,6 +2,7 @@
 title: "Felsenthal WRIA demo"
 author: "University of Georgia, Water Resources & Remote Sensing Laboratory"
 date: "`r Sys.Date()`"
+knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
@@ -11,12 +12,11 @@ link-citations: yes
 github-repo: adamdsmith/wria_felsenthal
 url: ''
 description: ""
+always_allow_html: yes
 ---
 
 # Preface {-}
 
-```{r fig.align='center', echo=FALSE}
+```{r cyp_swamp, fig.cap='Cypress Swamp at Felsenthal NWR'}
 knitr::include_graphics('images/cypress_swamp.png', dpi = NA)
 ```
-
-This is the very first part of the book.
